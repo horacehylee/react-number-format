@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "target": "es2015",
+    "strict": false,
+    "jsx": "react",
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "allowSyntheticDefaultImports": false,
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "react-number-format": ["../lib/number_format.js"]
+    }
+  },
+  "include": ["src/**/*", "../typings/number_format.d.ts"],
+  "exclude": ["node_modules", "**/*-spec.ts", "**/__test__"]
+}
