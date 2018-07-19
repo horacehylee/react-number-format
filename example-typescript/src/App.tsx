@@ -1,8 +1,8 @@
 import * as React from "react";
 // import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import { default as NumberFormat } from "react-number-format";
+// import NumberFormat from "react-number-format";
 console.log("NumberFormat", NumberFormat);
-// import { default as NumberFormat } from "react-number-format";
 // import TextField from "material-ui/TextField";
 // import { cardExpiry } from "../../custom_formatters/card_expiry";
 
