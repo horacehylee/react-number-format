@@ -5183,6 +5183,12 @@ react-number-format@^3.5.0:
     babel-runtime "^6.26.0"
     prop-types "^15.6.0"
 
+"react-number-format@file:./../":
+  version "3.5.0"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+
 react-reconciler@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.7.0.tgz#9614894103e5f138deeeb5eabaf3ee80eb1d026d"

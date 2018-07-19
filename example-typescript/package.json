@@ -21,7 +21,7 @@
   "dependencies": {
     "react": "^0.14 || ^15.0.0-rc || ^15.0.0 || ^16.0.0-rc || ^16.0.0",
     "react-dom": "^0.14 || ^15.0.0-rc || ^15.0.0 || ^16.0.0-rc || ^16.0.0",
-    "react-number-format": "^3.5.0"
+    "react-number-format": "file:./../"
   },
   "scripts": {
     "start": "parcel public/index.html",
